@@ -22,6 +22,7 @@ header {
     overflow-y: auto;
     width: 100%;
     height: 80%;
+    margin-bottom: 500px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -50,28 +51,69 @@ header {
 }
 
 .bottom {
+    background-color: white ;
     position: fixed;
+    display: flex;
     bottom: 0;
     width: 100%;
-    height: 170px;
     padding: 0px; 
-    display: inline-block; 
 }
 
 .bottom .myprojects {
     background-color: white;
     width: 100%;
     display: flex;
+    padding: 5px;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
 }
 
 .bottom .myprojects img {
+    align-content: center;
     width: 30%;
     height: 50%;
     margin: 5px;
 }
 
-.bottom .social img {
-    width: 10%;
+.bottom .myprojects .text1 {
+transition: .5s ease;
+opacity: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+-ms-transform: translate(-50%, -50%);
+text-align: center;
+}
+
+.bottom .myprojects:hover .i1 {
+    opacity:0.3;
+}
+
+.bottom .myprojects:hover .text1 {
+    opacity: 1;
+}
+
+.social {
+   background-color: white;
+   flex-wrap: wrap;
+   position: absolute;
+   margin-top: 50px;
+}
+
+.social p { 
+    text-align: center;
+    font-style: italic;
+    -ms-text-underline-position: under;
+}
+
+.social img {
+    align-items: center;
+    width: 20px;
+}
+
+.addinfo {
+    display: block;
+    align-items: flex-end;
 }

@@ -28,12 +28,23 @@ header {
     justify-content: space-between;
 }
 
+.container .dragonfly {
+    width: 100px;
+}
+
 .container .name {
     font-size: 80px;
     font-display: 10%;
     font-weight: 400;
     text-align: center;
     
+}
+
+hr {
+    display: block;
+    margin: auto;
+    border-bottom: 1px;
+    color: lightskyblue;
 }
 
 .container .about {
@@ -49,6 +60,27 @@ header {
     font-weight: 300;
     position: relative;
 }
+
+.education p {text-decoration-line: underline;
+    text-decoration-color: lightseagreen;
+    font-weight: 600;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.work p {text-decoration-line: underline;
+    text-decoration-color: lightseagreen;
+    font-weight: 600;
+    font-size: 30px;
+    padding-left: 10px; }
+
+.work .job1 {font-weight: 500;}
+
+.skills p {text-decoration-line: underline;
+    text-decoration-color: lightseagreen;
+    font-weight: 600;
+    font-size: 30px;
+    padding-left: 10px;}
 
 .bottom {
     background-color: white ;
